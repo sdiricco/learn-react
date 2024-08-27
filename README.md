@@ -45,6 +45,14 @@ yarn dev
 
 ## React tutorial
 
-- [Getting Started](./docs/1.GettingStarted.md)
+1. [Getting Started](./docs/1.GettingStarted.md)
+2. [Components](./docs/2.Components.md)
+3. [Styles And Data Binding](./docs/3.StylesAndDataBinding.md)
+4. [Conditional Rendering](./docs/4.ConditionalRendering.md)
+5. [ListRendering](./docs/5.ListRendering.md)
+6. [Events and State](./docs/6.EventsAndState.md)
+7. [Props](./docs/7.Props.md)
+8. [Childrean](./docs/8.Childrean.md)
+
 
 

@@ -1,15 +1,9 @@
-import Profile from "./components/Profile";
-
-const users = [
-  { name: "Hedy Lamarr", imageUrl: "https://i.imgur.com/yXOvdOSs.jpg", imageSize: 90 },
-  { name: "Sheddy", imageUrl: "https://i.imgur.com/yXOvdOSs.jpg", imageSize: 90 },
-]
+import CourseGoal from "./components/CourseGoal";
 
 export default function App() {
-  const profiles = users.map((user) => <Profile key={user.name} name={user.name} imageUrl={user.imageUrl} imageSize={user.imageSize} />)
   return (
-    <div>
-      {profiles}
-    </div>
+    <CourseGoal title="The Complete React Course">
+      <p>I am a course goal</p>
+    </CourseGoal>
   );
 }
